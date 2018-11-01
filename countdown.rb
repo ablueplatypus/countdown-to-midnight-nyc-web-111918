@@ -11,9 +11,15 @@ end
 
 def countdown_with_sleep(num)
   count = 0
-  while num > count
+  while num >= count
     sleep(1)
-    puts "#{num} Seconds till I fall asleep."
+    if num == 1
+      puts "#{num} Second till I fall asleep."
+    elsif num > 1
+      puts "#{num} Seconds till I fall asleep."
+    elsif num < 1
+      puts "Sweet Dreams!"
+    end
     num -= 1
   end
 end
