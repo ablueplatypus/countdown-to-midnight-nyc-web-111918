@@ -13,7 +13,7 @@ def countdown_with_sleep(num)
   count = 0
   while num > count
     sleep(1)
-    puts "#{num} Seconds till I fall asleep.")
+    puts "#{num} Seconds till I fall asleep."
     num -= 1
   end
 end
