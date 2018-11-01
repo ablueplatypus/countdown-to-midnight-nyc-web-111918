@@ -23,4 +23,3 @@ def countdown_with_sleep(num)
     num -= 1
   end
 end
-countdown_with_sleep(10)
